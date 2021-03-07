@@ -27,7 +27,7 @@ mongoose
 
 app.get("/", (req, res) => {
   // root 경로의 페이지('/')에서 "Hello World!"를 출력.
-  res.send("Hello World! Hi!");
+  res.send("Hello World! Hi!!!");
 });
 
 app.post("/register", (req, res) => {
